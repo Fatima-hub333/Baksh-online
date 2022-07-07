@@ -1,0 +1,115 @@
+.ceomain{
+    position: relative;
+    background-color: #F3F3F5;
+    /* background-color: #6E6E73; */
+    min-height: 100vh;
+    font-family: "Sackers Gothic Std";
+}
+
+.ceo-subdiv{
+    margin-top: 15%;
+    margin-left: 10%;
+    /* background-color: #0C1F30; */
+}
+
+.head1{
+font-family: 'Sackers Gothic Std';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 72px;
+text-transform: uppercase;
+color: #0C1F30;
+}
+
+.head2{
+    line-height: 5px;
+    font-family: "Sackers Gothic Std";
+font-weight: 300;
+font-size: 60px;
+text-align: left;
+color: #C49A50;
+/* margin-left: 25%; */
+}
+
+.ceomsg{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 170%;
+    color: #6E6E73;
+    margin-left: 10%;
+}
+
+/* .ceo-suubdiv2{
+    background-image: url("../../images/ceo.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 180px;
+    background-color: #C49A50;
+    bottom: 0px;
+    width: 100%;
+} */
+
+.ceo-suubdiv2{
+    /* background-color: #C49A50; */
+    justify-content: center;
+    text-align: left;
+    display: flex;
+}
+
+.ceoimg{
+    width: 400px;
+    height: 640px;
+}
+
+.ceomsg2{
+  margin-top: 30%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #707070;
+  width: 388px;
+  text-align: justify;
+}
+
+.ceoinfo {
+  background-color: #C49A50;
+  margin-top: 30%;
+  width: 1512px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ margin-left: -262%;
+ height: 241px;
+ z-index: 2;
+}
+
+.ceo-name {
+  margin-right: 30%;
+  font-family: 'Sackers Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+padding-top: 62px;
+display: flex;
+align-items: center;
+text-transform: lowercase;
+
+color: #FFFFFF;
+}
+
+.ceo-desg {
+  margin-right: 35.5%;
+  font-family: 'Sackers Gothic Std';
+  font-style: normal;
+  font-weight: 850;
+  font-size: 22px;
+  line-height: 170%;
+  color: #FFFFFF;
+  margin-top: -25px;
+}

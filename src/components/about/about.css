@@ -1,0 +1,55 @@
+
+
+.mainabout{
+    background-color: #FBFBFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: "Sackers Gothic Std";
+    background-image: url("../../images/image\ 6.png");
+    background-position: center center;
+    /* padding-bottom: 10%; */
+    background-size: cover;
+}
+
+.headig1{
+    font-family:'Sackers Gothic Std';
+    font-size: 70px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 10px;
+    color: #0C1F30;
+    margin-left: 25%;
+}
+
+.headigs2{
+    font-family: 'Sackers Gothic Std';
+        /* font-style: normal; */
+        font-weight: 600;
+        font-size: 73px;
+        line-height: 100px;
+        text-align: left;
+        color: #0C1F30;
+        margin-left: 25%;
+        line-height: 10px;
+        /* margin-top: -14px; */
+}
+.headigs3{
+    border-bottom: 1px solid #000;
+    /* width: 30%; */
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 26%;
+    font-size: 24px;
+}
+
+.abttxt{
+    font-size: 16px;
+    text-align: right;
+    color: #6E6E73;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 5%;
+}

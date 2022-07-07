@@ -1,0 +1,36 @@
+.mslider{
+    background: radial-gradient(78.08% 528.77% at 85.42% 39.59%, #0C1F30 33.33%, #02060A 100%);
+    overflow: hidden;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* min-height: 100vh; */
+    /* background-color: #4a4aeb; */
+}
+
+.sc-bczRLJ:hover{
+    background-color: #C49A50 !important;
+}
+
+.mlider{
+    height: 640px;
+    /* line-Height: '160px'; */
+    /* text-Align: 'center'; */
+}
+
+/* Tablet Responsive */
+@media only screen and (max-width: 900px) {
+    .mlider{
+        height: 900px;
+    }
+
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px){
+    .mlider{
+        height: 1100px;
+    }
+}
+

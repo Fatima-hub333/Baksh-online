@@ -1,0 +1,50 @@
+.homemain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: "Sackers Gothic Std";
+  /* background-color: aquamarine; */
+}
+
+#background-video{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.subhome{
+background-color: bisque;
+width: 100%;
+}
+
+.headingss1{
+  display: flex;
+  font-size: 35px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-left: 180px;
+  text-align: left;
+}
+
+.iconing{
+  width:  165px;
+  height: 140px;
+  margin-right: 5%;
+  margin-top: 3%;  
+}
+.txts1{
+  margin-right: 212px;
+  border-bottom: 1px solid #FFFFFF80;
+  border-top: 1px solid #FFFFFF80;
+  color: #FFFFFF;
+  font-size: 17px;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}

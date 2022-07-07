@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@font-face {
+   font-family: "Sackers Gothic Std";
+    /* src: url(../fonts/SackersGothicStd-Heavy.otf); */
+    src:url(../../sackerfonts/SackersGothicStd-Heavy.otf);
+    font-weight: 300 !important;
+}
+
+@font-face {
+    font-family: "Sackers Gothic Std";
+    /* src: url(../fonts/SackersGothicStd-Light.otf); */
+    src:url(../../sackerfonts/SackersGothicStd-Light.otf);
+}
+
+@font-face {
+    font-family: "Sackers Gothic Std";
+    /* src: url(../fonts/SackersGothicStd-Medium.otf); */
+    src:url(../../sackerfonts/SackersGothicStd-Medium.otf);
+}
+
+
+
+.leadermain {
+    /* background-color: #6b6bd8; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding-bottom: 10%;
+    /* --font-default:"Sackers Gothic Std";
+    --font-poppins :  "Poppins"; */
+  }
+.leaders{
+    margin-left:  5%;
+    margin-right: 5%;
+    margin-top: 20%;
+    justify-content: center;
+    text-align: center;
+}
+.ltext{
+  width: 400px;
+}
+.limg{
+  width: 205px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  height: 462px;
+}
+.limg:hover{
+  /* visibility: visible; opacity: 1; */
+  filter: none;
+  -webkit-filter: grayscale(0);
+  visibility: visible !important;
+}
+.ldpos {
+   font-family: 'Sackers Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 200%;
+display: flex;
+align-items: center;
+text-transform: lowercase;
+margin-top: -20px;
+}
+
+#left-1 {
+  margin-left: 22%;
+}
+
+#left-3 {
+  margin-left: 21%;
+}
+
+.ldname {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #C49A50;
+  padding-top: 28px;
+  }
+
+#left-settings-1 {
+  margin-left: 7%;
+}
+
+#left-settings-2 {
+  margin-left: 12%;
+}
+
+#left-settings-3 {
+  margin-left: 10%;
+}
+
+  #idnm{
+    margin-right: 27px;
+  }
+
+
+/* Tablet Responsive */
+@media only screen and (max-width: 800px) {
+
+  .limg{
+    width: 50%;
+    height: 50%;
+}
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px){
+
+
+}
