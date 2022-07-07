@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import './App.css'
 import MarketingSlider from './components/activites/slider/slider'
 // import Homes from './components/landing/Home'
@@ -16,7 +16,7 @@ import Ceo from './components/ceomessage/ceo';
 
 const App = () => {
   return (
-    <BrowserRouter>
+     <HashRouter base="/">
     
     <Topbar/>
     <Home/>
@@ -27,7 +27,7 @@ const App = () => {
     <Ceo/>
     <Leaders/> 
   
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
